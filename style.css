@@ -3,6 +3,7 @@
 .navigation {
   list-style: none;
   margin: 0; 
+ 
   
   background: deepskyblue;
   
@@ -13,7 +14,7 @@
   display: flex;
   
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 .navigation a {
@@ -21,6 +22,7 @@
   display: block;
   padding: 1em;
   color: white;
+     
 }
 
 .navigation a:hover {
@@ -50,27 +52,46 @@
   
   .navigation li:last-of-type a {
     border-bottom: none;
+   
   }
 }
-
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
-    justify-content: space-around;
+/*
+#caffe{
+    
+    align-items: center;
+    display: flex;
+    font-size: 26px;
+    text-align: justify;
+}
+*/
+#caffe-text{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 30px;
+    text-align: justify;
 }
 
-.flex-container>div {
-  background-color: #f1f1f1;
-  width: 400px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+#caffe-img{
+    padding-left: 10px;
+    padding-right: 30px;
+    height: 400px;
+    width: 500px;
 }
-h1{
-   background-color: coral;
-    font-size: 50px;
-    padding: 20px;
+.flex-container{
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-between;
     
 }
+/*
+#caffe-img{
+    width: 45%;
+    height: 100%;
+    
+}
+*/
+
+    
+    
+
+            
